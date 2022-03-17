@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+:root {
+   --cor0: #5579b627;
+   --cor1: #8cb6ff5b;
+   --cor2: #4e86e8c2;
+   --cor3: #33415a;
+   --cor4: #6e8cc0;
+
+   --fonte-padrao: Arial, Verdana Helvetica, sans-serif;
+   --fonte-destaque: 'Bebas Neue', cursive;
+   --fonte-subtitulo: 'Merriweather', cursive;
+   --fonte-titulos: 'Ubuntu', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: var(--cor2);
+    text-align: center;
+    padding: 10px;
+}
+
+header > h1 {
+    color: var(--cor3);
+    font-family: var(--fonte-destaque);
+    font-size: 4.5em;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+header > p {
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    font-family: var(--fonte-subtitulo);
+    font-weight: bold;
+}
+
+nav {
+    font-size: 1.2em;
+    font-family: var(--fonte-padrao);
+    text-align: right;
+    margin: 20px 10px 5px 10px;
+
+}
+
+nav > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 10px 15px 10px;
+    transition-duration: 0.5s;   
+}
+
+nav > a:hover {
+    background-color: var(--cor2);
+    border-radius: 10px 10px 0px 0px;
+}
+
+main {
+    padding: 20px;
+    padding-bottom: 10px;
+    min-height: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+main h1 {
+    font-size: 2.5em;
+    font-family: var(--fonte-titulos);
+    font-weight: bold;
+    color: var(--cor3);
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-family: var(--fonte-titulos);
+    font-weight: bold;
+    color: var(--cor3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main > p {
+    font-family: var(--fonte-padrao);
+    font-size: 1.4em;
+    text-align: justify;
+    text-indent: 10px;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+main > p > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor2);
+}
+
+main > p > a:hover {
+    text-decoration: underline;
+    color: var(--cor3);
+}
+
+
+aside {
+    background-color: var(--cor0);
+    font-size: 1.4em;
+    margin: 10px 10px 5px 5px;
+    border-radius: 10px;
+}
+
+aside > h3 {
+    border-radius: 10px 10px 0px 0px;
+    background-color: var(--cor1);
+    font-family: var(--fonte-titulos);
+    font-weight: bold;
+    color: var(--cor3);
+    padding: 10px;
+}
+
+#aside1 > p {
+    color: var(--cor3);
+    font-family: var(--fonte-padrao);
+    font-size: 1.em;
+    text-align: justify;
+    text-indent: 10px;
+    line-height: 17px;
+    padding: 10px;
+}
+
+#aside1 > ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+    padding: 10px 5px 15px 15px;
+}
+
+
+.aside2 > ul {
+    list-style-position: inside;
+    padding: 10px 5px 15px 15px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: var(--cor3);
+}
+
+
+footer {
+    font-family: var(--fonte-padrao);
+    font-weight: bolder;
+    text-align: center;
+    background-color: var(--cor4);
+    color: white;
+    padding: 5px;
+}
+
+footer >  a {
+    text-decoration: none;
+    color: var(--cor3);
+    padding: 2px opx 2px;
+}
+
+footer > a:hover {
+    text-decoration: underline;
+    border-radius: 2px 2px 0px 2px;
+}
