@@ -24,6 +24,10 @@
     padding: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 header {
     background-color: var(--cor2);
     text-align: center;
@@ -161,6 +165,22 @@ aside > h3 {
     color: var(--cor3);
 }
 
+
+.main {
+    padding-top: 20px;
+    font-family: var(--fonte-destaque);
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.main > a {
+    color: var(--cor3);
+    text-decoration: none;
+}
+
+.main > a:hover {
+    text-decoration: underline;
+}
 
 footer {
     font-family: var(--fonte-padrao);
