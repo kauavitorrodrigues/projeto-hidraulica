@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+:root {
+   --cor0: #5579b627;
+   --cor1: #8cb6ff5b;
+   --cor2: #4e86e8c2;
+   --cor3: #33415a;
+   --cor4: #6e8cc0;
+
+   --fonte-padrao: Arial, Verdana Helvetica, sans-serif;
+   --fonte-destaque: 'Bebas Neue', cursive;
+   --fonte-subtitulo: 'Merriweather', cursive;
+   --fonte-titulos: 'Ubuntu', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  header {
+    background-color: var(--cor2);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+header > h1 {
+    color: var(--cor3);
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    padding-top: 15px;
+}
+
+nav {
+    font-size: 1em;
+    font-family: var(--fonte-padrao);
+    text-align: left;
+    margin: 5px 0px 0px 10px;
+
+}
+
+nav > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1px 5px 10px 3px;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: var(--cor2);
+    border-radius: 10px 10px 0px 0px;
+}
+
+#cadastro {
+    border-radius: 25px 25px 0px 0px;
+    background-color: var(--cor2);
+    color: var(--cor3);
+    border: 1px solid rgba(0, 0, 0, 0.500);
+    width: 300px;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+#cadastro > h1 {
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+article {
+    box-shadow: 11px 21px 30px 0px rgba(0,0,0,0.16);
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.500);
+    margin: 0px auto;
+    border-radius: 0px 0px 25px 25px;
+}
+
+article > ul > li {
+    padding: 10px 10px 10px 20px;
+    list-style: none;
+}
+
+input {
+    border-color: rgba(0, 0, 0, 0.50);
+    border-radius: 10px;
+    padding: 4px;
+}
+
+#btn {
+    transition-duration: 0.5s;
+    font-size: 10px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: var(--cor2);
+    color: var(--cor3);
+    border-radius: 100px;
+    border-color: rgba(245, 245, 220, 0);
+    font-weight: 850;
+}
+
+#btn:hover {
+    border-color: rgba(0, 0, 0, 0.29);
+}
+
+#res {
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    
+}
