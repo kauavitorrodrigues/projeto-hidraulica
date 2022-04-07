@@ -85,6 +85,7 @@ article {
     border: 1px solid rgba(0, 0, 0, 0.500);
     margin: 0px auto;
     border-radius: 0px 0px 25px 25px;
+    margin-bottom: 104px;
 }
 
 article > ul > li {
@@ -118,5 +119,24 @@ input {
 #res {
     text-align: center;
     font-family: var(--fonte-padrao);
-    
+}
+
+footer {
+    font-family: var(--fonte-destaque);
+    margin-bottom: -10px;
+    text-align: center;
+    background-color: var(--cor4);
+    font-size: 1.3em;
+    padding-top: 2px;
+    padding-bottom: 1;
+}
+
+footer > a {
+    font-weight: bold;
+    text-decoration: none;    
+    color: white;
+}
+
+footer > a:hover {
+    text-decoration: underline;
 }

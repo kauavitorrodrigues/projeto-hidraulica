@@ -9,7 +9,11 @@ function continuar() {
     var res = document.querySelector('div#res')
     
     if (idade == 0 || idade == '') {
-        res.innerHTML = ('Preencha corretamente os dados')
+        alert('Preencha corretamente os dados')
+    }
+
+    else if (idade <= 17) {
+        alert('Não são permitidos menores de idade')
     }
 
     else if (idade >= 18){
