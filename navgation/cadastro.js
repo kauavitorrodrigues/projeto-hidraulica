@@ -1,5 +1,5 @@
 function continuar() {
-    var senha = document.getElementById('input#txtsenha')
+    var senha = document.getElementById('txtsenha')
     var nome = document.getElementById('txtnome')
     var email = document.querySelector('input#txtemail')
     var endereço = document.querySelector('input#txtend')
@@ -19,5 +19,4 @@ function continuar() {
     else if (idade >= 18){
         alert('Cadastro concluído, aproveite')
     }
-
 }
